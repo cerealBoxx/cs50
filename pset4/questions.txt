@@ -1,0 +1,40 @@
+0.  How many different colors does each format support?
+GIF - 256 colors (8-bit palette)
+PNG - can support 8-bit palette, 24-bit truecolor (~16 million colors)
+and 48-bit deep color - over a billion colors
+BMP - can support up to 2^32 colors, however, the standart color palette is 24-bit.
+JPEG - also supports 24-bit pallete (~16 million colors)
+
+1.  Which of the formats supports animation?
+GIF
+2.  What's the difference between lossy and lossless compression?
+With lossless compression every single bit of data that was originally in
+the file remains after the file is uncompressed. Lossy compression
+reduces a file by permanently eliminating certain information (especially
+redundant information). When the file is uncompressed, only part
+of the original information is there.
+
+3.  Which of theres formats is lossy-compressed?
+JPEG
+4.  What happens, technically speaking, when a file is deleted on
+a FAT file system?
+The file information remains on the hard disk and only the metadata
+pointing to the file is rewritten.
+5.  What can someone like you do to ensure(with high probability) that
+files you delete cannot be recovered?
+I can overwrite the data with other data, for example, I can fill
+all the addresses with ASCII NUL bytes.
+
+6.  TODO
+7.  TODO
+8.  TODO
+9.  TODO
+10. TODO
+11. TODO
+12. TODO
+13. TODO
+14. TODO
+15. TODO
+16. TODO
+17. TODO
+18. TODO
